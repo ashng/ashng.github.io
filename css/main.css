@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Montserrat');
+
+body {
+  padding-top: 12vh;
+  font-family: 'Montserrat', sans-serif;
+  background: #f9f9f9;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Karla', sans-serif;
+}
+
+.navbar {
+  background: rgba(249, 249, 249, 0.98);
+  padding:2%;
+}
+
+.logo {
+  width: 50vw;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+.content {
+  margin-top: 3%;
+}
+
+.content-title {
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.content-body {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+
+.split-list{
+  padding: 3%;
+  border: 3px solid #f2f2f2;
+  border-radius: 15px;
+}
+
+.about-icon{
+  max-height: 28px;
+  margin:8px;
+}
+
+
+
+.the-end {
+  margin: 5%;
+  padding-top:1%;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 18vh;
+  }
+  .logo {
+    width: 40vw;
+  }
+
+  .content-thumbnail{
+    object-fit:cover;
+    width:900px;
+    height:400px;
+  }
+ }
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 14vh;
+  }
+  .navbar {
+    padding-top:1%;
+    padding-bottom:1%;
+    background: rgba(249, 249, 249, 0.98);
+  }
+  .logo {
+    width: 20vw;
+  }
+
+  .content-body {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .content-title {
+    padding-bottom: 2%;
+  }
+
+  .content-thumbnail{
+    object-fit:cover;
+    width:900px;
+    height:450px;
+  }
+
+
+  .about-content{
+    padding-top:4%;
+  }
+
+  .fresco-thumbnail{
+    object-fit: cover;
+    height:1px;
+  }
+
+  .the-end{
+    margin:1%;
+  }
+}
