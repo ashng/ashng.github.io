@@ -45,10 +45,16 @@ h1, h2, h3, h4{
   border-radius: 15px;
 }
 
+
+.about-image{
+  border-radius: 15px;
+}
+
 .about-icon{
   max-height: 28px;
   margin:8px;
 }
+
 
 
 
