@@ -22,6 +22,10 @@ h1, h2, h3, h4{
 .nav-item {
   text-align: center;
 }
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,0);
+}
 
 .content {
   margin-top: 3%;
@@ -67,12 +71,12 @@ h1, h2, h3, h4{
 
 .float-right{
   display: inline;
-  float:right;
+  float:right;x
 }
-
+/* for ipads */
 @media (min-width: 768px) {
   body {
-    padding-top: 18vh;
+    padding-top: 13vh;
   }
   .logo {
     width: 40vw;
@@ -85,6 +89,8 @@ h1, h2, h3, h4{
   }
  }
 
+
+/* for desktops */
 @media (min-width: 992px) {
   body {
     padding-top: 14vh;
@@ -126,4 +132,26 @@ h1, h2, h3, h4{
   .the-end{
     margin:1%;
   }
+}
+
+/* for ipad pro and other big b0iz */
+@media (min-width: 1024px) {
+  body{
+    padding-top: 9vh;
+  }
+  .logo {
+    width: 30vw;
+  }
+
+}
+
+/* ultrawide guys */
+@media (min-width: 1440px) {
+  body{
+    padding-top: 12vh;
+  }
+  .logo {
+    width: 50%;
+  }
+
 }
