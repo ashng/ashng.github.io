@@ -73,7 +73,7 @@ h1, h2, h3, h4{
   display: inline;
   float:right;x
 }
-/* for ipads */
+/* for smaller ipads/small monitors */
 @media (min-width: 768px) {
   body {
     padding-top: 13vh;
@@ -90,7 +90,7 @@ h1, h2, h3, h4{
  }
 
 
-/* for desktops */
+/* for laptops */
 @media (min-width: 992px) {
   body {
     padding-top: 14vh;
@@ -134,7 +134,7 @@ h1, h2, h3, h4{
   }
 }
 
-/* for ipad pro and other big b0iz */
+/* for ipad pro and bigger laptops */
 @media (min-width: 1024px) {
   body{
     padding-top: 9vh;
@@ -145,13 +145,13 @@ h1, h2, h3, h4{
 
 }
 
-/* ultrawide guys */
+/* XXL */
 @media (min-width: 1440px) {
   body{
-    padding-top: 12vh;
+    padding-top: 14vh;
   }
   .logo {
-    width: 50%;
+    width: 40%;
   }
 
 }
