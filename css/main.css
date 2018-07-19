@@ -55,12 +55,19 @@ h1, h2, h3, h4{
   margin:8px;
 }
 
-
+.footer{
+  text-align: center;
+}
 
 
 .the-end {
   margin: 5%;
   padding-top:1%;
+}
+
+.float-right{
+  display: inline;
+  float:right;
 }
 
 @media (min-width: 768px) {
