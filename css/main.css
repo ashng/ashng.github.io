@@ -49,6 +49,9 @@ h1, h2, h3, h4{
   border-radius: 15px;
 }
 
+.about{
+  padding-top: 3%;
+}
 
 .about-icon{
   max-height: 28px;
@@ -133,10 +136,10 @@ h1, h2, h3, h4{
 /* for ipad pro and bigger laptops */
 @media (min-width: 1024px) {
   body{
-    padding-top: 9vh;
+    padding-top: 4%;
   }
   .logo {
-    width: 30vw;
+    width: 30%;
   }
 
 }
