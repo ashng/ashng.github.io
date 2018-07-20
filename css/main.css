@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Karla|Montserrat');
 
 body {
-  padding-top: 14vh;
+  padding-top: 17%;
   font-family: 'Montserrat', sans-serif;
   background: #f9f9f9;
 }
@@ -16,7 +16,7 @@ h1, h2, h3, h4{
 }
 
 .logo {
-  width: 50vw;
+  width: 40vw;
 }
 
 .nav-item {
@@ -67,15 +67,15 @@ h1, h2, h3, h4{
 
 .float-right{
   display: inline;
-  float:right;x
+  float:right;
 }
 /* for smaller ipads/small monitors */
 @media (min-width: 768px) {
   body {
-    padding-top: 13vh;
+    padding-top: 13%;
   }
   .logo {
-    width: 40vw;
+    width: 40%;
   }
 
   .content-thumbnail{
@@ -89,7 +89,7 @@ h1, h2, h3, h4{
 /* for laptops */
 @media (min-width: 992px) {
   body {
-    padding-top: 14vh;
+    padding-top: 10%;
   }
   .navbar {
     padding-top:1%;
@@ -97,7 +97,7 @@ h1, h2, h3, h4{
     background: rgba(249, 249, 249, 0.98);
   }
   .logo {
-    width: 20vw;
+    width: 40%;
   }
 
   .content-body {
@@ -144,7 +144,7 @@ h1, h2, h3, h4{
 /* XXL */
 @media (min-width: 1440px) {
   body{
-    padding-top: 14vh;
+    padding-top: 4%;
   }
   .logo {
     width: 40%;
