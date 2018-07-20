@@ -28,7 +28,7 @@ h1, h2, h3, h4{
 }
 
 .content {
-  margin-top: 3%;
+  margin-top: 6%;
 }
 
 .content-title {
@@ -75,7 +75,7 @@ h1, h2, h3, h4{
 /* for smaller ipads/small monitors */
 @media (min-width: 768px) {
   body {
-    padding-top: 13%;
+    padding-top: 9%;
   }
   .logo {
     width: 40%;
